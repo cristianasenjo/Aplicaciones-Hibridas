@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<title>Curriculum Vitae</title>
+</head>
+<body>
+	<header>
+		<img src="img/logo.svg" width="350px" height="200px">
+	</header>
+	<h1>Hoja de Vida</h1>
+	<h2>Cristian Andrés Asenjo Torres</h2>
+	<h3>19-07-2017 Punta Arenas - Chile</h3>
+	<nav>
+		<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="educacion.html">Educación</a></li>
+			<li><a href="experiencia.html">Experiencia</a></li>
+		</ul>
+	</nav>
+	<h2>Educación</h2>
+	<table border="1">
+		<tr>
+			<td style="text-align: center;">Año</td>
+			<td style="text-align: center;">Institución</td>
+			<td style="text-align: center;">Lugar</td>
+			<td style="text-align: center;">¿Culminó?</td>
+		</tr>
+		<tr>
+			<td style="text-align: center;">2015</td>
+			<td style="text-align: center;">Universidad Tecnologica De Chile Instituto Profesional Centro De Formacion Tecnica</td>
+			<td style="text-align: center;">Puerto Montt - Chile</td>
+			<td style="text-align: center;">Si</td>
+		</tr>
+	</table>
+	<form autocomplete="on" name="formulario de estudios">
+		<fieldset>
+			<legend>Agregar Estudios</legend>
+				<label for="año">Año</label>
+				<select id="año">
+					<option>2015</option>
+					<option>2016</option>
+					<option>2017</option>
+				</select></br>
+				<label for="instituacion">Institución:</label>
+				<input type="text" id="institucion" required="true"></br>
+				<label for="lugar">Lugar:</label>
+				<textarea id="lugar"></textarea></br>
+				<label for="culmino">¿Culminó?</label>
+				<input type="radio" name="culmino" id="culmino" value="Si"> Si
+  				<input type="radio" name="culmino" id="culmino" value="No"> No</br>
+  				<input type="submit" name="enviar" value="Enviar">
+  		</fieldset>
+	</form>
+	<footer>
+		<nav>
+			<ul>
+				<li><b>Email:</b> <a href="mailto:cristianasenjotorres@gmail.com">cristianasenjotorres@gmail.com</a></li>
+				<li><b>Teléfono:</b> +56942129893</li>
+				<li><b>Dirección:</b> Piloto Samuel Ulloa Ciudad de Castro - Chile</li>
+			</ul>
+		</nav>
+	</footer>
+</body>
+</html>
